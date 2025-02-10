@@ -2,7 +2,7 @@
 
 A public web API for FEMORPH can be accessed at [api.femorph.com](https://api.femorph.com), which contains a variety of endpoints to allow you to upload both FEMs and surfaces for mesh metamorphosis.
 
-API docs are available at [https://api.femorph.com/docs](api.femorph.com/docs).
+API docs are available at [api.femorph.com/docs](https://api.femorph.com/docs).
 
 ![Swagger UI](docs/swagger-ui.png)
 
@@ -29,3 +29,5 @@ INFO:root:Task 3ed5a1a0-c172-446d-9146-d5ce5393ad31 status: completed
 INFO:root:Downloaded FEM nblock: /tmp/output.inp
 PASS
 ```
+
+Results can be visualized with [mapdl-archive](https://github.com/akaszynski/mapdl-archive).
