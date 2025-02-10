@@ -16,9 +16,10 @@ Credentials for both this graphical web application and the API can be obtained 
 
 ### Example
 
-The file `example.py` contains everything you need to upload and morph the `cube.cdb` file to the `sphere.ply` file. Once you've obtained your credentials, simply run `python example.py`:
+The file `example.py` contains everything you need to upload and morph the `cube.cdb` file to the `sphere.ply` file. Once you've obtained your credentials, simply install the requirements and run `python example.py`:
 
 ```bash
+$ pip install -r requirements.txt
 $ python example.py 
 Application Healthy
 INFO:root:Upload successful: {'filename': 'cube.cdb', 'id': 'c0cf7b82-4735-49e6-9ebb-7358a252bef3', 'dataHash': '0a54ea4bacd3f638c5e069611ba8f18c5dcaeb3867d9067c864f5d8f5cdf9c44', 'dataType': 'FemArtifact', 'modified': False, 'nSectors': None, 'axis': None}
