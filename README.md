@@ -10,7 +10,7 @@ API docs are available at [api.femorph.com/docs](https://api.femorph.com/docs).
 
 The public API also contains a graphical user interface which can be accessed from a modern browser by visiting [api.femorph.com](https://api.femorph.com).
 
-![Web GUI](docs/web-gui-locked.png)
+![Web GUI](docs/web-gui.png)
 
 Credentials for both this graphical web application and the API can be obtained by visiting [femorph.com](https://www.femorph.com/) and contacting sales.
 
