@@ -146,7 +146,7 @@ if __name__ == "__main__":
     surface_id = upload_file(SURFACE_PATH, "surfaces", user_id, access_token)
     morph_fem(fem_id, surface_id, user_id, access_token)
 
-    out_file = "/tmp/output.inp"
+    out_file = "output.inp"
     download_nblock(fem_id, out_file, user_id, access_token)
 
     assert os.path.isfile(out_file)

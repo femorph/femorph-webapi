@@ -1,18 +1,18 @@
 ## FEMORPH Web API
 
-A public web API for FEMORPH can be accessed at [https://api.femorph.com](api.femorph.com), which contains a variety of endpoints to allow you to upload both FEMs and surfaces for mesh metamorphosis.
+A public web API for FEMORPH can be accessed at [api.femorph.com](https://api.femorph.com), which contains a variety of endpoints to allow you to upload both FEMs and surfaces for mesh metamorphosis.
 
-API docs are available at [api.femorph.com/docs](https://api.femorph.com/docs)
+API docs are available at [https://api.femorph.com/docs](api.femorph.com/docs).
 
 ![Swagger UI](docs/swagger-ui.png)
 
 ### Graphical Web Interface
 
-The public API also contains a graphical user interface which can be accessed from a modern browser by visiting [https://api.femorph.com](api.femorph.com).
+The public API also contains a graphical user interface which can be accessed from a modern browser by visiting [api.femorph.com](https://api.femorph.com).
 
 ![Web GUI](docs/web-gui-locked.png)
 
-Credentials for both this graphical web application and the API can be obtained by visiting [https://www.femorph.com/](femorph.com] and contacting sales.
+Credentials for both this graphical web application and the API can be obtained by visiting [femorph.com](https://www.femorph.com/) and contacting sales.
 
 ### Example
 
