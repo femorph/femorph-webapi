@@ -138,10 +138,19 @@ def authenticate(username: str, password: str) -> Tuple[str, str]:
     return dat["user_id"], dat["access_token"]
 
 
+def clear_session(user_id: str, access_token: str) -> None:
+    """Clear all the data session from the current user session."""
+    headers = {"Authorization": f"Bearer {access_token}"}
+    response = requests.delete(f"{BASE_URL}/users/{user_id}/data", headers=headers)
+    response.raise_for_status()
+    logging.info("Cleared user session")
+
+
 if __name__ == "__main__":
     assert_healthy()
 
     user_id, access_token = authenticate(USERNAME, PASSWORD)
+    clear_session(user_id, access_token)
     fem_id = upload_file(FEM_PATH, "fems", user_id, access_token)
     surface_id = upload_file(SURFACE_PATH, "surfaces", user_id, access_token)
     morph_fem(fem_id, surface_id, user_id, access_token)

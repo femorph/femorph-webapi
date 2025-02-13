@@ -1,1 +1,8 @@
 .env
+
+# go
+go.mod
+go.sum
+
+# example output
+output.inp
