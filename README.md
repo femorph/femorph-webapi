@@ -1,4 +1,4 @@
-1## FEMORPH Web API
+## FEMORPH Web API
 
 A public web API for FEMORPH can be accessed at [api.femorph.com](https://api.femorph.com), which contains a variety of endpoints to allow you to upload both FEMs and surfaces for mesh metamorphosis.
 
